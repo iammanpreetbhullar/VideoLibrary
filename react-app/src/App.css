@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"); */
+
+html {
+  background: #e94259;
+}
+.mainDiv {
+  background: #e94259;
+}
+
+.headingDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #272727;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.btn1 {
+  background-color: #272727;
+  border: none;
+  margin-left: 10px !important;
+  float: left !important;
+}
+
+.fa {
+  color: #ffc55a;
+  font-size: 4vw !important;
+  float: left;
+}
+
+.fa:hover{
+  color: #57ddb1;
+}
+
+.heading {
+  background-color: #ffc55a;
+  color: #272727;
+  font-size: 4vw;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  padding: 2px 22px;
+  margin: 10px 20px;
+  border-radius: 12px;
+}
+
+.heading:hover{
+  background-color: #57ddb1;
+  cursor: pointer;
+}
+
+.loaderParent {
+  display: flex;
+  background-color: #e94259;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.unsupportedDiv {
+  display: flex;
+  justify-content: center;
+}
+
+
+.categoryParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category {
+  width: 30vw;
+  height: 40vh;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #fff;
+  margin: 40px 10px;
+  border-radius: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.category:hover {
+  background-color: #ffc55a;
+  color: #272727;
+  text-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px black;
+}
+
+.categories {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 3px 3px 3px black;
+}
+.movieList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movieList li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  background: #272727;
+  cursor: pointer;
+}
+
+.movieList li:hover {
+  background: #57ddb1;
+  box-shadow: 5px 5px 5px black;
+}
+
+.movieList li img {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.movieList li h2 {
+  color: #fff;
+  font-size: 1.2em;
+  padding: 15px 10px 0;
+  margin-top: auto;
+  font-family: "Oswald", sans-serif;
+}
